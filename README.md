@@ -4,6 +4,10 @@ A custom Home Assistant integration that scrapes activity and profile data direc
 
 This integration was built specifically for users who want FitBark data inside Home Assistant without relying on the limited official API.
 
+***NOTICE*** 
+
+Fitbark API gives no more data than what is on the website web.fitbark.com, GPS & Battery data for your pets are ONLY available on the mobile apps.  FitBark does NOT expose battery info or gps data on the website.  Many people have tried to get an API and never heard back, I had an API and had issues with it and there communication was lacking at best.  To there credit, the website does say its in beta and MAYBE they will expose the battery & gps data in the future. If you can login to the website web.fitbark.com, enter those creds into the integration upon install.
+
 ---
 # Screenshots
 
